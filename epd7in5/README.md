@@ -2,7 +2,6 @@
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![Build Status](https://travis-ci.org/gandaldf/rpi.svg?branch=master)](https://travis-ci.org/gandaldf/rpi)
-[![Go Report Card](https://goreportcard.com/badge/github.com/gandaldf/rpi)](https://goreportcard.com/report/github.com/gandaldf/rpi)
 [![GoDoc](https://godoc.org/github.com/gandaldf/rpi?status.svg)](https://godoc.org/github.com/gandaldf/rpi)
 
 # 7.5inch e-Paper
