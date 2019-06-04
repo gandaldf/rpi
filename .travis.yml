@@ -1,0 +1,11 @@
+go_import_path: github.com/gandaldf/rpi
+
+language: go
+
+go:
+  - 1.12.x
+  - tip
+
+os:
+  - linux
+  - osx
