@@ -1,7 +1,8 @@
-![logo](https://user-images.githubusercontent.com/3932259/58835758-1a1e9780-8657-11e9-8dd5-50c34ab75889.png)
+![logo](https://user-images.githubusercontent.com/3932259/59157501-04243300-8aac-11e9-8189-932a0ed44f2a.png)
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![Build Status](https://travis-ci.org/gandaldf/rpi.svg?branch=master)](https://travis-ci.org/gandaldf/rpi)
+[![Go Report Card](https://goreportcard.com/badge/github.com/gandaldf/rpi)](https://goreportcard.com/report/github.com/gandaldf/rpi)
 [![GoDoc](https://godoc.org/github.com/gandaldf/rpi?status.svg)](https://godoc.org/github.com/gandaldf/rpi)
 
 # RPi
