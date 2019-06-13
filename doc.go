@@ -1,3 +1,4 @@
+// Package RPi
 // Personal Golang libraries for some Raspberry Pi hardware.
 //
 // e-Papers:
