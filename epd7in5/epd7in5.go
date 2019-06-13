@@ -1,5 +1,4 @@
-// Package epd7in5
-// This is an interface for the Waveshare 7.5inch e-paper display (wiki).
+// Package epd7in5 is an interface for the Waveshare 7.5inch e-paper display (wiki).
 //
 // The GPIO and SPI communication is handled by the awesome Periph.io package; no CGO or other dependecy needed.
 //
