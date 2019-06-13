@@ -1,3 +1,10 @@
+// This is an interface for the Waveshare 7.5inch e-paper display (wiki).
+//
+// The GPIO and SPI communication is handled by the awesome Periph.io package; no CGO or other dependecy needed.
+//
+// Tested on Raspberry Pi 3B / 3B+ with Raspbian Stretch.
+//
+// For more information please check the examples and doc folders.
 package epd7in5
 
 import (
