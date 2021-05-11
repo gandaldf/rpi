@@ -1,9 +1,10 @@
 ![7 5inch-e-paper-hat-4](https://user-images.githubusercontent.com/3932259/58586467-659e0380-825b-11e9-9942-f75c6dd7584f.jpg)
 
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+[![License](https://img.shields.io/github/license/mashape/apistatus.svg)](https://github.com/gandaldf/rpi/blob/master/LICENSE)
 [![Build Status](https://travis-ci.org/gandaldf/rpi.svg?branch=master)](https://travis-ci.org/gandaldf/rpi)
 [![Go Report Card](https://goreportcard.com/badge/github.com/gandaldf/rpi)](https://goreportcard.com/report/github.com/gandaldf/rpi)
-[![GoDoc](https://godoc.org/github.com/gandaldf/rpi?status.svg)](https://godoc.org/github.com/gandaldf/rpi)
+[![Go Reference](https://pkg.go.dev/badge/github.com/gandaldf/rpi.svg)](https://pkg.go.dev/github.com/gandaldf/rpi)
+[![Version](https://img.shields.io/github/tag/gandaldf/rpi.svg?color=blue&label=version)](https://github.com/gandaldf/rpi/releases)
 
 # 7.5inch e-Paper
 This is an interface for the Waveshare 7.5inch e-paper display ([wiki](https://www.waveshare.com/wiki/7.5inch_e-Paper_HAT)).
@@ -14,12 +15,12 @@ Tested on Raspberry Pi 3B / 3B+ with Raspbian Stretch.
 
 For more information please check the _examples_ and _doc_ folders.
 
-## Installing
+## Installation:
 ```
-go get github.com/gandaldf/rpi/
+go get -u github.com/gandaldf/rpi/
 ```
 
-## Load an image
+## Load an image:
 ```golang
 func main() {
 	log.Println("Starting...")
