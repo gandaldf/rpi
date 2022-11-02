@@ -298,7 +298,7 @@ func (e *Epd) Display(img []byte) {
 	e.turnOnDisplay()
 }
 
-// Sleep put the display in power-saving mode.
+// Sleep puts the display in power-saving mode.
 // You can use Reset() to awaken and Init() to re-initialize the display.
 func (e *Epd) Sleep() {
 	e.sendCommand(POWER_OFF)
