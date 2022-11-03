@@ -2,7 +2,7 @@
 //
 // The GPIO and SPI communication is handled by the awesome Periph.io package; no CGO or other dependecy needed.
 //
-// Tested on Raspberry Pi 3B / 3B+ with Raspbian Stretch.
+// Tested on Raspberry Pi 3B / 3B+ / 4B with Raspbian Stretch.
 //
 // For more information please check the examples and doc folders.
 package epd7in5
@@ -298,7 +298,7 @@ func (e *Epd) Display(img []byte) {
 	e.turnOnDisplay()
 }
 
-// Sleep put the display in power-saving mode.
+// Sleep puts the display in power-saving mode.
 // You can use Reset() to awaken and Init() to re-initialize the display.
 func (e *Epd) Sleep() {
 	e.sendCommand(POWER_OFF)
